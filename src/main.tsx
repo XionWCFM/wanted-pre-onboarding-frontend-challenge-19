@@ -1,9 +1,11 @@
+import './@app/style/tailwind.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import EntryPoint from './@app/root/entry-point.tsx';
-import './@app/style/tailwind.css';
+import { RouterProvider } from 'react-router-dom';
+import { router } from './@app/route/router';
+
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <EntryPoint />
+    <RouterProvider router={router} />
   </React.StrictMode>,
 );
