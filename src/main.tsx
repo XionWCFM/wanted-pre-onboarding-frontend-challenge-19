@@ -1,4 +1,6 @@
 import './@app/style/tailwind.css';
+import '@xionhub/token/style';
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';

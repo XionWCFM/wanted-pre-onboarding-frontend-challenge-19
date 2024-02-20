@@ -1,8 +1,9 @@
+import { XION_STYLE } from '@xionhub/token';
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    extend: {},
+    ...XION_STYLE,
   },
   plugins: [],
 };
