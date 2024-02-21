@@ -1,3 +1,21 @@
+# 요구 명세 및 과제 답변 문서 안내
+
+[작성한 요구사항 명세서](./REQUIREMENTS_SPECIFICATION.md)
+
+[2차 과제 답변](./TASK_2.md)
+
+# 프로젝트 시작 방법
+
+```
+
+git clone https://github.com/XionWCFM/wanted-pre-onboarding-frontend-challenge-19.git
+
+npm i
+
+npm run dev
+
+```
+
 # wanted-pre-onboarding-frontend-challenge-19
 
 안녕하세요.
@@ -29,12 +47,12 @@
 과제 세팅에 맞춰 과제를 수행해주세요. 세팅값에 맞지 않는 프로젝트는 과제 확인이 불가능합니다. 과제 제출 전에 확인하고 제출 부탁드립니다.
 
 - [ x ] create-react-app 혹은 vite으로 프로젝트를 생성합니다.
-- [ ] 아래 과제 공통 세팅의 폴더 구조를 확인합니다.
-- [ ] 과제를 제출하는 방법은 본인이 작업한 github repository 주소를 [issues](https://github.com/summerdidi/wanted-pre-onboarding-frontend-challenge-19/issues)에 올리면 됩니다.
-- [ ] 과제물은 main 브랜치에 올립니다.
-- [ ] 프로젝트는 node version 20에서 실행할 수 있어야합니다.
-- [ ] Settings -> Codespaces -> Configuration Select branch를 main 으로 하고 제출합니다.(codespace 확인용도)
-- [ ] 함수형 컴포넌트를 사용해 코드를 짜주세요.
+- [ x ] 아래 과제 공통 세팅의 폴더 구조를 확인합니다.
+- [ x ] 과제를 제출하는 방법은 본인이 작업한 github repository 주소를 [issues](https://github.com/summerdidi/wanted-pre-onboarding-frontend-challenge-19/issues)에 올리면 됩니다.
+- [ x ] 과제물은 main 브랜치에 올립니다.
+- [ x ] 프로젝트는 node version 20에서 실행할 수 있어야합니다.
+- [ x ] Settings -> Codespaces -> Configuration Select branch를 main 으로 하고 제출합니다.(codespace 확인용도)
+- [ x ] 함수형 컴포넌트를 사용해 코드를 짜주세요.
 
 ## 과제 공통 세팅
 
