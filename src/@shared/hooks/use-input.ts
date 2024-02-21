@@ -1,14 +1,20 @@
 import { useState } from 'react';
-import { useDebounce } from './use-debounce';
 
 interface UseInputParam {
-  milliseconds?: number;
   initialState?: string;
 }
+
+interface ErrorState {
+  isError?: boolean;
+  errorContent: string;
+}
+
 export const useInput = (option?: UseInputParam) => {
   const [input, setInput] = useState<string>(option?.initialState ?? '');
-  const debounceSetInput = useDebounce((eventValue: string) => {
-    setInput(eventValue);
-  }, option?.milliseconds ?? 500);
-  return { input, setInput, debounceSetInput } as const;
+  const [error, setError] = useState<ErrorState>({
+    isError: false,
+    errorContent: '',
+  });
+
+  return { input, setInput, error, setError } as const;
 };
